@@ -1,34 +1,34 @@
-# Built output
-/build
-app/build
+# Gradle files
+.gradle/
+build/
 
-# Gradle
-.gradle
-gradle/wrapper/gradle-wrapper.jar
-
-# Local environment
+# Local configuration file (sdk path, etc)
 local.properties
 
-# macOS
-.DS_Store
+# Log/OS Files
+*.log
 
-# IntelliJ / Android Studio — only version-control files that are shared and stable
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ
 *.iml
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-/.idea/deploymentTargetSelector.xml
-/.idea/studiobot.xml
-/.idea/vcs.xml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
-/.idea/*
+# Keystore files
+*.jks
+*.keystore
 
-# Native build
-.externalNativeBuild
-.cxx
+# Google Services (e.g. APIs or Firebase)
+google-services.json
 
-# Profiling / captures
-/captures
+# Android Profiling
+*.hprof
